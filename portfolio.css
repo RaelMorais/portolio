@@ -1,0 +1,283 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    height: 120vh;
+    margin: 0;
+}
+
+.btn-click {
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-click:hover:hover {
+    background: rgb(7, 115, 238);
+    transition: 0.5s;
+}
+
+.conteiner-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70%;
+    margin-top: auto;
+}
+.pres{
+font-size: 32px;
+position: absolute;
+width: 508px;
+margin: 60px;
+height: 194px;
+left: 100px;
+top: 292px;
+
+}
+
+.res{
+    font-size: 92px;
+    position: absolute;
+    width: 603px;
+    height: 215px;
+    left: 150px;
+    top: 185px;
+}
+h1{
+font-family: 'Inter';
+font-style: normal;
+color: #000000;
+}
+
+.navbar {
+    padding: 10px;
+    text-align: right;
+  }
+
+  .navbar button {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover{
+        background-color: #ffffff;
+        color: black;
+        transition: 0.2s;
+    }
+  }
+
+  .social-icons{
+    
+    font-size: 32px;
+    position: absolute;
+    width: 508px;
+    margin: 60px;
+    height: 194px;
+    left: 100px;
+    top: 380px;
+  }
+
+  .fa-twitter{
+    color: #1DA1F2;
+    &&:hover{
+        color: rgb(0, 0, 0);
+        transition: 01s;
+    }
+ }
+ .fa-linkedin{
+    color: #1DA1F2;
+    &&:hover{
+        color: rgb(0, 0, 0);
+        transition: 01s;
+    }
+ }
+ .fa-github{
+    color: #1DA1F2;
+    &&:hover{
+        color: rgb(0, 0, 0);
+        transition: 01s;
+    }
+ }
+ .fa-figma{
+    color: #1DA1F2;
+    &&:hover{
+        color: rgb(0, 0, 0);
+        transition: 01s;
+    }
+ }
+
+
+
+ .cards {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    padding: 6rem 2rem;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 1.5rem;
+}
+
+.articles article {
+    max-width: 320px;
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    display: block;
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.articles article h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.6rem;
+    color: var(--text);
+    transition: color 0.3s ease-out;
+}
+
+
+.articles article img {
+    max-width: 100%;
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.articles article:hover img {
+    transform: scale(1.5);
+}
+
+.article-preview {
+    padding: 1.5rem;
+    background: white;
+}
+
+.articles figure {
+    width: 100%;
+    height: 14rem;
+    overflow: hidden;
+}
+.image {
+    display: block;
+    height: 720px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.image-01 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9z34oSk2M_soxEz6NpgX0u7sIphc8zruCaGdLH4_Iw&s");
+}
+
+.image-02 {
+    background-image: url("https://digwallpapers.com/wallpapers/full/2/7/d/26479-3840x2160-star-wars-luke-skywalker-wallpaper-photo-desktop-4k.jpg");
+
+}
+
+.image-03 {
+    background-image: url("https://cdn.wallpapersafari.com/38/65/Fcx7LA.jpg");
+}
+section > h2 {
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.title1{
+
+    text-align: center;
+    margin: 20px 0;
+    font-size: 92px;
+    color: #ffffff;
+}
+
+
+
+
+  .one{
+    .banner{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+        background-size: center;
+    }
+    .content{
+        height: 90px;
+        width: 100%;
+        position: relative;
+        color: white;
+        top: 45%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .content h1{
+        margin-top: 80px;
+        font-size: 90px;
+        font-weight: 800;
+    }
+    button{
+        width: 200px;
+        padding: 15px;
+        margin: 20px 5px;
+        text-align: center;
+        border-radius: 25px;
+        color: rgb(24, 23, 23);
+        border: 2px;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    button:hover{
+        background: rgb(7, 115, 238);
+        transition: 0.5s;
+    }
+    button:hover{
+        color: white;
+    }
+    .banner video{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    @media(min-aspect-ratio: 16/9){
+        .banner video{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
